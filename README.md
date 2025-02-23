@@ -1,7 +1,8 @@
 # CC-Fraud-Detection
 Fraud detection in Credit Card Transactions:
 
-Problem Statement
+Problem Statement:
+
 The goal of this project is to predict fraudulent credit card transactions using machine learning models. The dataset used in this project consists of credit card transactions made by European cardholders over two days in September 2013. Out of 284,807 transactions, only 492 are fraudulent, making the dataset highly imbalanced. This imbalance presents a significant challenge, as it requires careful handling during data preprocessing and model building to ensure accurate detection of fraudulent activities.
 
 Business Context
