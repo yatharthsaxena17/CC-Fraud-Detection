@@ -10,7 +10,7 @@ Credit card fraud is a critical issue for banks and financial institutions, lead
 
 For banks, detecting and preventing fraud is not just a competitive advantage but a necessity. Machine learning offers a proactive approach to identifying fraudulent transactions, reducing manual reviews, minimizing chargebacks, and preventing the denial of legitimate transactions. This project aims to leverage machine learning to build a robust fraud detection system that can address these challenges effectively.
 
-Dataset Overview
+**Dataset Overview**
 The dataset is sourced from Kaggle and contains the following key features:
 
 Time: The number of seconds elapsed between the first transaction and the subsequent transactions.
@@ -26,18 +26,18 @@ The dataset is highly imbalanced, with fraudulent transactions accounting for on
 Project Pipeline
 The project follows a structured pipeline to ensure a thorough analysis and effective model building:
 
-1. Data Understanding
+**1. Data Understanding**
 
 Load and explore the dataset to understand its structure and features.
 Identify key variables and their distributions.
 
-2. Exploratory Data Analysis (EDA)
-
+**2. Exploratory Data Analysis (EDA)
+**
 Perform univariate and bivariate analysis to uncover patterns and relationships.
 Check for skewness in the data and apply transformations if necessary.
 Visualize the distribution of fraudulent vs. non-fraudulent transactions.
 
-3. Data Preprocessing
+**3. Data Preprocessing**
 
 Handle the class imbalance using techniques such as oversampling (SMOTE), undersampling, or synthetic data generation.
 
@@ -45,7 +45,7 @@ Normalize or standardize features if required.
 
 Split the data into training and testing sets for model validation.
 
-5. Model Building
+**5. Model Building**
 
 Experiment with various machine learning algorithms, such as Logistic Regression, Random Forest, Gradient Boosting, and Neural Networks.
 
@@ -53,7 +53,7 @@ Optimize hyperparameters using techniques like Grid Search or Random Search.
 
 Evaluate the performance of each model using appropriate metrics.
 
-6. Model Evaluation
+**6. Model Evaluation**
 
 Metrics such as precision, recall, F1-Score, and AUC-ROC are used to assess model performance.
 
@@ -61,7 +61,7 @@ Focus on minimizing false negatives (fraudulent transactions incorrectly classif
 
 Validate the model using k-fold cross-validation to ensure robustness.
 
-7. Deployment (Optional)
+**7. Deployment (Optional)**
 
 Deploy the best-performing model as a fraud detection system.
 
